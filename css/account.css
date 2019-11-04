@@ -1,0 +1,51 @@
+.input{
+    width: 50%;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 3px;
+    border-width: .5px;
+    border-color: black;
+}
+
+
+input[type='file']{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #106BA0;
+    display: inline-block;
+    /*transition: all .5s;*/
+    cursor: pointer;
+    padding: 7px 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    width: 50%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sendForm{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(204, 167, 1);
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 8px 5px;
+    margin: 10px;
+    text-transform: uppercase;
+    width: 30%;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
